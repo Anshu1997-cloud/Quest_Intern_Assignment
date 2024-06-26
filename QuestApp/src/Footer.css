@@ -1,0 +1,66 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1250px;
+    margin: auto;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #1a202c;
+    opacity: 1;
+    transform: none;
+  }
+  
+  /* Logo and company name */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .logo-container img {
+    width: 32px; /* Adjust as needed */
+  }
+  
+  .company-name {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  /* Grid for resources, support, legal */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust column layout for smaller screens */
+    gap: 16px;
+  }
+  
+  .grid-container.md {
+    grid-template-columns: repeat(3, 1fr); /* Adjust column layout for medium screens */
+  }
+  
+  /* Section headers (Resources, Support, Legal) */
+  .section-header {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Links within sections */
+  .section-links {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .section-links a {
+    color: #9f7aea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .section-links a:hover {
+    color: #6b46c1;
+    text-decoration: underline;
+  }

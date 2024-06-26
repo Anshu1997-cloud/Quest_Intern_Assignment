@@ -1,0 +1,63 @@
+.relative {
+    position: relative;
+    height: 300px; /* Adjust as needed */
+  }
+  
+  .md\:h-full {
+    height: 100%; /* Adjust as needed */
+  }
+  
+  .min-h-[200px] {
+    min-height: 200px; /* Adjust as needed */
+  }
+  
+  .m-auto {
+    margin: auto;
+  }
+  
+  .text-white {
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .h-full {
+    height: 100%; /* Adjust height as needed */
+  }
+  .text-content {
+    width: 100%;
+    max-width: 860px; /* Adjust as needed */
+    color: #fff;
+    text-align: center;
+    font-family: 'Figtree', sans-serif; /* Assuming 'Figtree' is your custom font */
+    font-size: 24px; /* Default font size */
+    font-weight: 500; /* Adjust font weight as needed */
+    line-height: 26px; /* Adjust line height as needed */
+    letter-spacing: -0.96px; /* Adjust letter spacing as needed */
+    
+    /* Responsive font sizes */
+    font-size: 36px; /* Medium devices */
+    line-height: 42px; /* Medium devices */
+  }
+  
+  /* Large devices */
+  @media (min-width: 1024px) {
+    .text-content {
+      font-size: 48px;
+      line-height: 56px;
+    }
+  }

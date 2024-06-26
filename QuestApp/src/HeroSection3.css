@@ -1,0 +1,81 @@
+
+.app-card {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: var(--Size-0, 11.556px) var(--Size-0, 11.556px) var(--Size-0, 11.555px) var(--Size-0, 11.556px);
+    justify-content: center;
+    align-items: center;
+    border-radius: 9.41px;
+    background: #323232;
+}
+.menu-item {
+    position: absolute;
+    top: 38%;
+    right: -42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    padding: 8px;
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .menu-item svg {
+    margin-right: 6px; /* Adjust as needed */
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 180px;
+    margin-right: 1000%;
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      height: 100%;
+    }
+  }
+  
+  .content {
+   display: block;
+    flex-direction: column;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: flex-start;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: 'Figtree', sans-serif;
+  }
+  
+  .description {
+    color: #b9b9b9;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+  }
+  .container1 {
+    position: absolute;
+    margin-top: 100%;
+    margin-left:10%;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
