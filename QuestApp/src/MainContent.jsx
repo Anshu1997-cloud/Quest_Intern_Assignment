@@ -13,7 +13,6 @@ const MainContent = () => {
         fontSize: "30px", 
         lineHeight: "40px", 
         letterSpacing: "-0.96px", 
-        fontFamily: 'sans-serif', 
         width: "100%", 
         maxWidth: "674px", 
         marginTop: "150px", 

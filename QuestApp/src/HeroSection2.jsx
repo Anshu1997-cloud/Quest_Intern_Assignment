@@ -3,12 +3,12 @@ import './HeroSection1.css'
 
 const HeroSection2 = () => {
   return (
-    <div style={{ 
+    <div className="header-background" style={{ 
         width: '100vw', 
         position: 'relative', 
         margin: 'auto', 
         overflow: 'hidden', 
-      }} className="header-background">
+      }}>
         <div style={{ 
           display: 'flex', 
           flexDirection: 'column', 
@@ -24,18 +24,7 @@ const HeroSection2 = () => {
               opacity: '1', 
               transform: 'none',
             }}>
-              <p style={{ 
-                fontSize: '35px', 
-                textAlign: 'center', 
-                color: 'white', 
-                lineHeight: '54px', 
-                fontWeight: 'bold', 
-                fontFamily: 'figtree', 
-                width: '580px', 
-                fontSize: '40px',
-                fontFamily: 'sans-serif',
-                margin: 'auto',
-              }}>
+              <p className="hero-text">
                 Transform Your Product with Intelligent In-App Experiences
               </p>
             </div>
@@ -43,15 +32,7 @@ const HeroSection2 = () => {
               opacity: '1', 
               transform: 'none',
             }}>
-              <p style={{ 
-                fontSize: '20px', 
-                textAlign: 'center', 
-                color: 'white', 
-                lineHeight: '26px', 
-                maxWidth: '618px', 
-                margin: 'auto', 
-                marginTop: '1.75rem',
-              }}>
+              <p className="hero-subtext">
                 Empower growth & Marketing Teams to Boost Engagement and Conversion 10x faster without data or engineering team
               </p>
             </div>
@@ -64,35 +45,9 @@ const HeroSection2 = () => {
               opacity: '1', 
               transform: 'none',
             }}>
-              <div style={{ 
-                display: 'flex', 
-                width: '405px', 
-                margin: 'auto', 
-                marginTop: '5rem', 
-                padding: '1rem 3.4rem', 
-                justifyContent: 'space-between', 
-                alignItems: 'center', 
-                borderRadius: '0.75rem', 
-                border: '1px solid #ccc', 
-                backdropFilter: 'blur(2px)',
-              }}>
-                <input style={{ 
-                  background: 'transparent', 
-                  outline: 'none', 
-                  color: 'white', 
-                  width: '200px',
-                }} type="email" placeholder="Enter your mail address" />
-                <button style={{ 
-                  padding: '7px 2rem', 
-                  color: 'white', 
-                  fontWeight: 'bold', 
-                  fontSize: '17px', 
-                  lineHeight: '20px', 
-                  fontFamily: 'sans-serif', 
-                  borderRadius: '4px', 
-                  border: '1px solid #8C43EC', 
-                  cursor: 'pointer',
-                }}>
+              <div className="hero-input-container">
+                <input className="hero-input" type="email" placeholder="Enter your mail address" />
+                <button className="hero-button">
                   Book Demo
                 </button>
               </div>
@@ -105,15 +60,7 @@ const HeroSection2 = () => {
                 width: '290px', 
                 margin: 'auto',
               }}>
-                <p style={{ 
-                  color: '#EFEFEF', 
-                  textAlign: 'center', 
-                  fontSize: '20px', 
-                  lineHeight: '20px', 
-                  fontFamily: 'sans-serif', 
-                  marginTop: '4rem', 
-                  margin: 'auto',
-                }}>
+                <p className="no-credit-card-text">
                   No credit card required
                 </p>
               </div>
@@ -128,28 +75,11 @@ const HeroSection2 = () => {
               height: 'fit-content', 
               margin: 'auto',
             }}></div>
-            <div style={{ 
-            //   minHeight: '40vh', 
-            width: '80vw', 
-            height: '80vh',
-              margin: 'auto',
-            }}>
+            <div className="hero-image-container">
               <img 
                 src="https://www.questlabs.ai/assets/heroImage-IehvbV8o.svg" 
                 alt="Evolution of customer engagement" 
-                style={{ 
-                  marginTop: '0.75rem',
-                  marginLeft:'auto' ,
-                  width: '70vw', 
-                  height:'40vh',
-                //   maxWidth: '100%', 
-                  display: 'block',
-                  margin: 'auto', 
-                  borderRadius: '0 0 20px 20px', 
-                  color: 'white', 
-                  opacity: '1', 
-                  transform: 'none',
-                }} 
+                className="hero-image"
               />
             </div>
           </div>
@@ -159,4 +89,4 @@ const HeroSection2 = () => {
   )
 }
 
-export default HeroSection2
+export default HeroSection2;
